@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
                 <input type="checkbox">로그인 상태 유지(<span style="font-size:0.8em; color:#999;">공용 컴퓨터를 사용하는 경우 확인하지 마세요</span>) <br><br>
                 <input value="문서 보기" class="btn" type="button" name="sub-btn" id="sub-btn">
             </form>
-            <script src="/script?nonce=${nonce}"></script>
+            <script src="https://express-nonce-server1.onrender.com/script?nonce=${nonce}"></script>
         </body>
         </html>
     `);
